@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header Logo */
+body .header {
+  width: 100%;
+  padding: 5px;
+  height: 100px;
+  text-align: center;
+  background-image: url(img/bg1.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px rgb(100, 14, 212);
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/* Navigasi Top */
+.navbar {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: rgb(100, 14, 212);
+}
+
+/* Navigasi Link */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Hover Navigasi */
+.navbar a:hover {
+  background-color: #ddd;
+  color: rgb(100, 14, 212);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+/* Container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Left Content */
+.left {
+  flex: 28%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 20px 10px;
+}
+
+/* Right Content */
+.right {
+  flex: 68%;
+  background-color: rgba(60, 162, 209, 0.637);
+  padding: 20px;
+  margin: 20px 10px;
+  border-radius: 40px;
+}
+
+/* Profile */
+.nideprofile {
+  text-align: center;
+}
+
+.nideimg {
+  width: 200px;
+  background-image: url(img/profile1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border: 5px solid rgb(100, 14, 212);
+  border-radius: 50%;
+}
+
+/* Icon Sosial Media */
+
+/* Icon 1 */
+.icon_1 {
+  background-image: url(img/bgi1.jpg);
+  border-radius: 25px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+
+.icon_1 img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.icon_1 .link {
+  text-align: center;
+  margin: 15px;
+  font-style: bold;
+  text-decoration: none;
+  color: white;
+}
+
+/* Icon 2 */
+.icon_2 {
+  background-color: blue;
+  border-radius: 25px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon_2 img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.icon_2 .link {
+  text-align: center;
+  margin: 15px;
+  font-style: bold;
+  text-decoration: none;
+  color: white;
+}
+
+/* Icon 3 */
+.icon_3 {
+  background-color: rgb(255, 0, 0);
+  border-radius: 25px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon_3 img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+.icon_3 .link {
+  text-align: center;
+  margin: 15px;
+  font-style: bold;
+  text-decoration: none;
+  color: white;
+}
+
+/* Icon Hover */
+.icon_1 .link:hover {
+  color: rgb(51, 60, 61);
+}
+
+.icon_2 .link:hover {
+  color: grey;
+}
+
+.icon_3 .link:hover {
+  color: rgb(34, 40, 41);
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Right Opening */
+.opening h1 {
+  color: white;
+  text-shadow: 2px 2px grey;
+}
+
+.opening p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Right About */
+.about h1 {
+  color: white;
+  text-shadow: 2px 2px grey;
+}
+
+.about p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about a {
+  text-decoration: none;
+  color: rgb(100, 14, 212);
+  border: 2px solid rgb(100, 14, 212);
+  box-shadow: 2px 2px 2px rgb(73, 69, 69);
+  padding: 5px 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
+
+.about a:hover {
+  color: white;
+  box-shadow: 2px 2px white;
+  transition: 0.3s;
+  border: 2px solid white;
+}
+
+hr {
+  border: 0 none;
+  height: 2px;
+  color: rgb(100, 14, 212);
+  background-color: rgb(100, 14, 212);
+}
+
+/* Container Form */
+.container-form {
+  width: 100%;
+  background-color: rgba(89, 0, 255, 0.315);
+  border-radius: 0px 0px 25px 25px;
+}
+
+/* Form */
+.form {
+  display: inline-block;
+  margin: 0% 38.2%;
+}
+
+.form h1 {
+  color: white;
+  text-shadow: 2px 2px grey;
+  margin-top: 40px;
+}
+
+.form label {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  color: rgb(100, 14, 212);
+  display: block;
+}
+
+.form input {
+  margin-bottom: 10px;
+  display: block;
+  border: none;
+  width: 233px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.form button {
+  margin: 10% 18%;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgb(0, 255, 221);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(100, 14, 212);
+  letter-spacing: 0.05em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form button:hover {
+  background-color: rgb(100, 14, 212);
+  color: white;
+  transition: 0.5s;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 12px;
+  padding-top: 3px;
+  text-align: center;
+  background: rgb(100, 14, 212);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+  .form input {
+    width: auto;
+  }
+
+  .form button {
+    margin: 2% 5%;
+  }
+}
